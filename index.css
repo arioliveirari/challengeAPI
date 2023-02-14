@@ -24,3 +24,18 @@ body {
     border-radius: 5px;
     font-size: 100px;
 }
+
+a:link {
+    color: black;
+    background-color: #fed600;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6c5693;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+#footer
