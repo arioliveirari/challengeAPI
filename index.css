@@ -1,4 +1,26 @@
 body {
     background-image: url("images/poke.jpg");
-    background-size: repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#pokedex{
+    background-color: #fed600;
+    max-height: 80%;
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto ;
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 10px;
+}
+
+#title{
+    background-color: #fed600;
+    width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    border: rgb(0, 0, 0) solid 4px;
+    border-radius: 5px;
+    font-size: 100px;
 }
