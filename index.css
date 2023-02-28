@@ -51,3 +51,9 @@ a:visited {
     position: absolute;
     bottom: 0;
 }
+
+.pokeCont{
+    border: 1px solid black;
+    display: flex;
+    margin: auto 0;
+}
