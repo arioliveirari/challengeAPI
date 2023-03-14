@@ -1,6 +1,12 @@
 *{
-    margin: 0 ;
+    margin: 2vh 0px 0 0 ;
     padding: 0 ;
+}
+
+#base{
+    margin: 0 auto;
+    padding: 0 10vw 0 10vw;
+    min-width: 600px;
 }
 
 body {
@@ -12,22 +18,23 @@ body {
 
 #pokedex{
     background-color: #fed600;
-    max-height: 80%;
-    width: 80%;
-    max-width: 1000px;
+    width: 42vw;
     margin: 50px auto ;
     border: rgb(0, 0, 0) solid 3px;
     border-radius: 10px;
+    overflow-y: scroll;
+    max-height: 60vh;
+    min-width: 400px;
 }
 
 #title{
     background-color: #fed600;
-    width: 750px;
+    width: 40vw;
     margin: 0 auto;
     padding: 10px;
     border: rgb(0, 0, 0) solid 4px;
     border-radius: 5px;
-    font-size: 100px;
+    font-size: 5vw;
 }
 
 a:link {
@@ -56,4 +63,12 @@ a:visited {
     border: 1px solid black;
     display: flex;
     margin: auto;
+    justify-content: space-around;
+    font-size: calc(5px + 1.5vw);
+    align-items: center;
+    
+}
+
+.pokeIm{
+    width: 8vw;
 }

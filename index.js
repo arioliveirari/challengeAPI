@@ -1,7 +1,7 @@
 fetchPokemon()
 
 function fetchPokemon(){
-    fetch('https://pokeapi.co/api/v2/pokemon')
+    fetch('https://pokeapi.co/api/v2/pokemon/?limit=150')
      .then(response => response.json())
      .then(function(allpokemon){
      allpokemon.results.forEach(function(pokemon){
@@ -30,6 +30,7 @@ function renderPokemon(pokeData){
         pokeName.textContent = pokeData.name
         let pokeImage = document.createElement('img')
         pokeImage.srcset =  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokeData.id}.png`
+        pokeImage.setAttribute("class","pokeIm")
         console.log(pokeContainer)
         let pokeNumber = document.createElement('p')                                      
         pokeNumber.textContent = `#${pokeData.id}`    
@@ -37,3 +38,7 @@ function renderPokemon(pokeData){
         pokeContainer.append(pokeImage, pokeInfo)                 
         allPokemonContainer.appendChild(pokeContainer)                 
         }
+
+ function renderInformation(){
+  
+ }       
